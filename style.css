@@ -1,523 +1,304 @@
-{
-
-box-sizing:border-box;
-
+* {
+    box-sizing: border-box;
 }
+
 body {
-margin: 0;
-
-background:
-linear-gradient(
-    to bottom,
-    #03030b,
-    #06244d,
-    #0a6b91
-);
-
-color:white;
-font-family:sans-serif;
-
-
+    margin: 0;
+    background:
+        linear-gradient(
+            to bottom,
+            #03030b,
+            #06244d,
+            #0a6b91
+        );
+    color: white;
+    font-family: sans-serif;
 }
+
 h1 {
-font-size: 60px;
-letter-spacing: 5px;
-text-shadow: 0 0 20px #6ecbff;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px #6ecbff;
 }
+
 .intro {
-
-height:100vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .world {
-
-min-height: 100vh;
-
-background: 
-linear-gradient(
-    rgba(0,10,30,0.95),
-    rgba(0,30,60,0.95)
-);
-
-padding: 100px 20%;
-
-
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            rgba(0, 10, 30, 0.95),
+            rgba(0, 30, 60, 0.95)
+        );
+    padding: 100px 20%;
 }
 
 .world-box {
-
-border: 1px solid rgba(100,200,255,0.5);
-
-padding: 60px;
-
-background: rgba(0,0,20,0.5);
-
-box-shadow: 0 0 30px rgba(50,150,255,0.3);
-
-
+    border: 1px solid rgba(100, 200, 255, 0.5);
+    padding: 60px;
+    background: rgba(0, 0, 20, 0.5);
+    box-shadow: 0 0 30px rgba(50, 150, 255, 0.3);
 }
 
 .world h2 {
-
-color: white;
-
-font-size: 45px;
-
-letter-spacing: 8px;
-
-
+    color: white;
+    font-size: 45px;
+    letter-spacing: 8px;
 }
 
 .world h3 {
-
-color: #6ecbff;
-
-margin-top: 50px;
-
-letter-spacing: 3px;
-
-
+    color: #6ecbff;
+    margin-top: 50px;
+    letter-spacing: 3px;
 }
 
 .world p {
-
-color:white;
-
-font-size:18px;
-
-line-height:2;
-
-
+    color: white;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .ark {
-
-display:flex;
-
-flex-direction:column;
-
-gap:50px;
-
-align-items:center;
-
-margin-top:50px;
-
-
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .ark img {
-
-width:80%;
-
-max-width:900px;
-
-border-radius:10px;
-
-box-shadow:
-0 0 30px rgba(100,200,255,0.5);
-
-
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(100, 200, 255, 0.5);
 }
 
 .ark div {
-
-flex:1;
-
-
+    flex: 1;
 }
 
 .ark h4 {
-
-font-size:35px;
-
-color:#6ecbff;
-
-
+    font-size: 35px;
+    color: #6ecbff;
 }
 
 .unit {
-
-min-height:100vh;
-
-padding:100px 10%;
-
-background:
-linear-gradient(
-    rgba(0,10,30,0.9),
-    rgba(0,20,50,0.9)
-);
-
-
+    min-height: 100vh;
+    padding: 100px 10%;
+    background:
+        linear-gradient(
+            rgba(0, 10, 30, 0.9),
+            rgba(0, 20, 50, 0.9)
+        );
 }
 
 .unit-box {
-
-border:1px solid rgba(100,200,255,0.5);
-
-padding:60px;
-
-background:rgba(0,0,20,0.5);
-
-text-align:center;
-
-
+    border: 1px solid rgba(100, 200, 255, 0.5);
+    padding: 60px;
+    background: rgba(0, 0, 20, 0.5);
+    text-align: center;
 }
 
 .unit h2 {
-
-font-size:40px;
-
-letter-spacing:8px;
-
-color:white;
-
-
+    font-size: 40px;
+    letter-spacing: 8px;
+    color: white;
 }
 
 .unit h3 {
-
-font-size:45px;
-
-color:#6ecbff;
-
-margin-top:30px;
-
-
+    font-size: 45px;
+    color: #6ecbff;
+    margin-top: 30px;
 }
 
 .unit p {
-
-margin-top:50px;
-
-font-size:20px;
-
-line-height:2;
-
-
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 2;
 }
 
 .unit-info {
-
-display:flex;
-
-justify-content:center;
-
-gap:30px;
-
-margin-top:70px;
-
-
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
 }
 
 .unit-info div {
-
-border:1px solid rgba(100,200,255,0.4);
-
-padding:30px;
-
-width:200px;
-
-
+    border: 1px solid rgba(100, 200, 255, 0.4);
+    padding: 30px;
+    width: 200px;
 }
 
 .unit-info span {
-
-display:block;
-
-color:#6ecbff;
-
-font-size:14px;
-
-
+    display: block;
+    color: #6ecbff;
+    font-size: 14px;
 }
 
 .unit-info strong {
-
-display:block;
-
-margin-top:15px;
-
-
+    display: block;
+    margin-top: 15px;
 }
 
 .member {
-
-min-height:100vh;
-
-padding:100px 10%;
-
-background:
-linear-gradient(
-    rgba(0,10,30,0.95),
-    rgba(0,20,40,0.95)
-);
-
-
+    min-height: 100vh;
+    padding: 100px 10%;
+    background:
+        linear-gradient(
+            rgba(0, 10, 30, 0.95),
+            rgba(0, 20, 40, 0.95)
+        );
 }
 
 .member-box {
-
-text-align:center;
-
-
+    text-align: center;
 }
 
 .member h2 {
-
-font-size:50px;
-
-letter-spacing:10px;
-
-
+    font-size: 50px;
+    letter-spacing: 10px;
 }
 
 .subtitle {
-
-color:#6ecbff;
-
-margin-bottom:60px;
-
-
+    color: #6ecbff;
+    margin-bottom: 60px;
 }
 
 .cards {
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
-
-gap:40px;
-
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px;
 }
 
-
 .card h3 {
-
-color:#6ecbff;
-
-letter-spacing:3px;
-
-
+    color: #6ecbff;
+    letter-spacing: 3px;
 }
 
 .card h4 {
-
-font-size:35px;
-
-margin:20px 0;
-
-
+    font-size: 35px;
+    margin: 20px 0;
 }
 
 .card p {
-
-line-height:2;
-
-
+    line-height: 2;
 }
 
 .card img {
-
-width:240px;
-
-height:400px;
-
-object-fit:cover;
-
-object-position:center top;
-
-border-radius:10px;
-
-border:1px solid rgba(100,200,255,0.5);
-
-
+    width: 240px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 200, 255, 0.5);
 }
 
 .card-info {
-
-flex:1;
-
-
-}
-
-@media (max-width:600px) {
-
-.unit h2 {
-
-    font-size:28px;
-
-    letter-spacing:4px;
-
-    word-break:break-word;
-
-}
-
-
-.unit h3 {
-
-    font-size:32px;
-
-}
-
-
-.unit-box {
-
-    padding:30px;
-
-}
-
-
+    flex: 1;
 }
 
 .supply {
-
-min-height:100vh;
-
-padding:100px 10%;
-
-background:
-linear-gradient(
-    rgba(0,10,30,0.95),
-    rgba(0,20,40,0.95)
-);
-
-
+    min-height: 100vh;
+    padding: 100px 10%;
+    background:
+        linear-gradient(
+            rgba(0, 10, 30, 0.95),
+            rgba(0, 20, 40, 0.95)
+        );
 }
 
 .supply-box {
-
-border:1px solid rgba(100,200,255,0.5);
-
-padding:60px;
-
-background:
-rgba(0,0,20,0.6);
-
-text-align:center;
-
-
+    border: 1px solid rgba(100, 200, 255, 0.5);
+    padding: 60px;
+    background: rgba(0, 0, 20, 0.6);
+    text-align: center;
 }
 
 .supply h2 {
-
-font-size:50px;
-
-letter-spacing:10px;
-
-
+    font-size: 50px;
+    letter-spacing: 10px;
 }
 
 .equipment {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 .equipment img {
-width: 300px;
-max-width: 80%;
+    width: 300px;
+    max-width: 80%;
 }
 
 .equipment-info {
-text-align: center;
+    text-align: center;
 }
 
 .equipment-info h3 {
-
-color:#6ecbff;
-
-letter-spacing:4px;
-
-
+    color: #6ecbff;
+    letter-spacing: 4px;
 }
 
 .equipment-info h4 {
-
-font-size:35px;
-
-margin:20px 0;
-
-
+    font-size: 35px;
+    margin: 20px 0;
 }
 
 .equipment-info p {
-
-font-size:18px;
-
-line-height:2;
-
-
+    font-size: 18px;
+    line-height: 2;
 }
+
 /* 멤버 상세 정보 */
 
 .member-detail {
-max-width: 900px;
-margin: 40px auto 0;
-padding: 35px;
-
-border: 1px solid rgba(255,255,255,0.2);
-background: rgba(0,0,0,0.25);
-
-display: none;
-
-
+    max-width: 900px;
+    margin: 40px auto 0;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.25);
+    display: none;
 }
 
 .member-detail.active {
-display: block;
+    display: block;
 }
+
 /* =========================
    MEMBER CARD FLIP
-========================= */
+   ========================= */
 
 .card {
     position: relative;
-
     height: 460px;
-
     perspective: 1000px;
-
     cursor: pointer;
-
     padding: 0;
-
     border: none;
-
     background: none;
-
     transition: none;
-
     display: block;
 }
 
 .card:hover {
     transform: none;
-
     box-shadow: none;
 }
 
 .card-inner {
     position: relative;
-
     width: 100%;
     height: 100%;
-
     transition: transform 0.6s ease;
-
     transform-style: preserve-3d;
 }
 
@@ -525,84 +306,62 @@ display: block;
     transform: rotateY(180deg);
 }
 
-
 /* =========================
    카드 앞 / 뒤
-========================= */
+   ========================= */
 
 .card-front,
 .card-back {
     position: absolute;
-
     inset: 0;
-
     width: 100%;
     height: 100%;
-
     box-sizing: border-box;
-
     padding: 30px;
-
-    border: 1px solid rgba(100,200,255,0.5);
-
+    border: 1px solid rgba(100, 200, 255, 0.5);
     border-radius: 10px;
-
-    background: rgba(0,0,20,0.6);
-
+    background: rgba(0, 0, 20, 0.6);
     text-align: left;
-
     backface-visibility: hidden;
-
     -webkit-backface-visibility: hidden;
 }
 
-
 /* =========================
    카드 앞면
-========================= */
+   ========================= */
 
 .card-front {
     display: flex;
-
     gap: 30px;
-
     align-items: center;
 }
 
 .card-front img {
     width: 240px;
     height: 400px;
-
     object-fit: cover;
-
     object-position: center top;
-
     flex-shrink: 0;
-
     border-radius: 10px;
-
-    border: 1px solid rgba(100,200,255,0.5);
+    border: 1px solid rgba(100, 200, 255, 0.5);
 }
 
 .card-front .card-info {
     flex: 1;
 }
 
-
 /* =========================
    카드 뒷면
-========================= */
+   ========================= */
 
 .card-back {
     transform: rotateY(180deg);
-
     overflow-y: auto;
 }
 
-
 /* =========================
    카드 뒷면 스크롤
-========================= */
+   ========================= */
 
 .card-back::-webkit-scrollbar {
     width: 6px;
@@ -613,18 +372,15 @@ display: block;
 }
 
 .card-back::-webkit-scrollbar-thumb {
-    background: rgba(100,200,255,0.4);
-
+    background: rgba(100, 200, 255, 0.4);
     border-radius: 10px;
 }
 
-
 /* =========================
-   모바일
-========================= */
+   태블릿 / 작은 화면
+   ========================= */
 
 @media (max-width: 900px) {
-
     .card {
         height: 460px;
     }
@@ -637,11 +393,26 @@ display: block;
         width: 200px;
         height: 360px;
     }
-
 }
 
+/* =========================
+   모바일
+   ========================= */
 
 @media (max-width: 600px) {
+    .unit h2 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        word-break: break-word;
+    }
+
+    .unit h3 {
+        font-size: 32px;
+    }
+
+    .unit-box {
+        padding: 30px;
+    }
 
     .cards {
         grid-template-columns: 1fr;
@@ -653,7 +424,6 @@ display: block;
 
     .card-front {
         gap: 15px;
-
         padding: 20px;
     }
 
@@ -670,5 +440,4 @@ display: block;
         font-size: 14px;
         line-height: 1.7;
     }
-
-}오후 9:26 2026-08-09
+}
