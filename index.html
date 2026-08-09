@@ -29,21 +29,17 @@
 
     <div class="world-box">
 
-
         <h2>WORLD DATABASE</h2>
 
-
-        <h3>── 60 YEARS AGO ──</h3>
-
+        <h3>60년 전</h3>
 
         <div class="ark">
 
             <img src="images/ark.png">
 
-
             <div>
 
-                <h4>ARK</h4>
+                <h4>방주 - ARK</h4>
 
                 <p>
                 인류가 처음으로 마주한 외계 문명의 거대한 우주선.<br><br>
@@ -57,13 +53,10 @@
 
             </div>
 
-
         </div>
 
 
-
-        <h3>── PRESENT DAY ──</h3>
-
+        <h3>지금 시대</h3>
 
         <p>
         인간과 외계인이 함께 살아가는 근미래 서울.<br><br>
@@ -71,8 +64,6 @@
         하지만 서로 다른 문화와 가치관은
         새로운 갈등과 사건을 만들어내고 있다.
         </p>
-
-
 
     </div>
 
@@ -85,15 +76,11 @@
 <!-- 인외전담특수수사대 -->
 <section class="unit">
 
-
     <div class="unit-box">
-
 
         <h2>SPECIAL INVESTIGATION UNIT</h2>
 
-
         <h3>인외전담특수수사대</h3>
-
 
         <p>
         인간과 외계 생명체가 공존하는 시대.<br><br>
@@ -104,33 +91,26 @@
         </p>
 
 
-
         <div class="unit-info">
-
 
             <div>
                 <span>설립</span>
                 <strong>설립 1년차</strong>
             </div>
 
-
             <div>
                 <span>소속</span>
                 <strong>서울경찰청</strong>
             </div>
-
 
             <div>
                 <span>목적</span>
                 <strong>인외 관련 사건 수사</strong>
             </div>
 
-
         </div>
 
-
     </div>
-
 
 </section>
 
@@ -141,39 +121,29 @@
 <!-- 멤버 -->
 <section class="member">
 
-
     <div class="member-box">
 
-
         <h2>MEMBER FILE</h2>
-
 
         <p class="subtitle">
         인외전담특수수사대 구성원 데이터
         </p>
 
 
-
         <div class="cards">
-
 
 
             <!-- 엘레네어 -->
 
-            <div class="card">
-
+            <div class="card" onclick="showMember('eleneir')">
 
                 <img src="images/eleneir.png" alt="엘레네어">
 
-
                 <div class="card-info">
-
 
                     <h3>FILE 001</h3>
 
-
                     <h4>엘레네어</h4>
-
 
                     <p>
                     종족 : 루네비브<br>
@@ -182,32 +152,23 @@
                     능력 : 공간 구조 재정의
                     </p>
 
-
                 </div>
-
 
             </div>
 
 
 
-
-
             <!-- 정요셉 -->
 
-            <div class="card">
-
+            <div class="card" onclick="showMember('yosep')">
 
                 <img src="images/yosep.png" alt="정요셉">
 
-
                 <div class="card-info">
-
 
                     <h3>FILE 002</h3>
 
-
                     <h4>정요셉</h4>
-
 
                     <p>
                     종족 : 인간<br>
@@ -216,32 +177,23 @@
                     능력 : 뛰어난 추리력과 현장 경험
                     </p>
 
-
                 </div>
-
 
             </div>
 
 
 
-
-
             <!-- 베커 -->
 
-            <div class="card">
-
+            <div class="card" onclick="showMember('becker')">
 
                 <img src="images/becker.png" alt="베커 비앙">
 
-
                 <div class="card-info">
-
 
                     <h3>FILE 003</h3>
 
-
                     <h4>베커 비앙</h4>
-
 
                     <p>
                     종족 : 콸트<br>
@@ -250,32 +202,23 @@
                     능력 : 위장 및 은신
                     </p>
 
-
                 </div>
-
 
             </div>
 
 
 
-
-
             <!-- 움삐 -->
 
-            <div class="card">
-
+            <div class="card" onclick="showMember('umppi')">
 
                 <img src="images/umppi.png" alt="움삐">
 
-
                 <div class="card-info">
-
 
                     <h3>FILE 004</h3>
 
-
                     <h4>움삐</h4>
-
 
                     <p>
                     종족 : 뷁큓숑뻬룢<br>
@@ -284,53 +227,58 @@
                     능력 : 압도적인 신체 능력
                     </p>
 
-
                 </div>
-
 
             </div>
 
 
+        </div>
+
+
+
+        <!-- 멤버 상세 정보 -->
+
+        <div id="member-detail" class="member-detail">
+
+            <h3>PERSONAL DATABASE</h3>
+
+            <h4 id="detail-name"></h4>
+
+            <p id="detail-text"></p>
 
         </div>
 
 
     </div>
 
-
 </section>
+
+
+
+
 
 <!-- 보급품 -->
 <section class="supply">
 
-
     <div class="supply-box">
 
-
         <h2>SUPPLY DATABASE</h2>
-
 
         <p class="subtitle">
         인외전담특수수사대 지급 장비 데이터
         </p>
 
 
-
         <div class="equipment">
-
-
 
             <img src="images/communicator.png" alt="통신단말기">
 
 
             <div class="equipment-info">
 
-
                 <h3>COMMUNICATION DEVICE</h3>
 
-
                 <h4>통신단말기</h4>
-
 
                 <p>
                 귀걸이 형태로 제작된 휴대용 통신 장비.<br><br>
@@ -340,14 +288,116 @@
                 사건 정보와 현장 데이터를 표시한다.
                 </p>
 
-
             </div>
-
 
         </div>
 
-
     </div>
 
-
 </section>
+
+
+
+
+
+<!-- 멤버 상세 정보 작동 코드 -->
+
+<script>
+
+function showMember(member) {
+
+    const detail = document.getElementById("member-detail");
+    const name = document.getElementById("detail-name");
+    const text = document.getElementById("detail-text");
+
+
+    const members = {
+
+
+        eleneir: {
+
+            name: "엘레네어",
+
+            text: `
+            종족 : 루네비브<br><br>
+
+            성격 : 여유롭고 능글맞은 성격.
+            장난스러운 태도를 보이지만 팀원들을 세심하게 챙긴다.<br><br>
+
+            특징 : 공간 구조를 자유롭게 재정의할 수 있다.<br><br>
+
+            직책 : 인외전담특수수사대 팀장
+            `
+
+        },
+
+
+        yosep: {
+
+            name: "정요셉",
+
+            text: `
+            종족 : 인간<br><br>
+
+            성격 : 지치고 냉소적인 성격이지만
+            책임감이 강하다.<br><br>
+
+            특징 : 뛰어난 추리력과 풍부한 현장 경험을 보유하고 있다.<br><br>
+
+            직책 : 수사관
+            `
+
+        },
+
+
+        becker: {
+
+            name: "베커 비앙",
+
+            text: `
+            종족 : 콸트<br><br>
+
+            성격 : 무뚝뚝하고 직설적인 성격.<br><br>
+
+            특징 : 뛰어난 위장 및 은신 능력을 가지고 있다.<br><br>
+
+            직책 : 수사관
+            `
+
+        },
+
+
+        umppi: {
+
+            name: "움삐",
+
+            text: `
+            종족 : 뷁큓숑뻬룢<br><br>
+
+            성격 : 밝고 장난기가 많으며
+            분위기를 즐겁게 만든다.<br><br>
+
+            특징 : 작은 체격과 달리 압도적인 신체 능력을 가지고 있다.<br><br>
+
+            직책 : 수사관
+            `
+
+        }
+
+    };
+
+
+    name.innerHTML = members[member].name;
+
+    text.innerHTML = members[member].text;
+
+    detail.classList.add("active");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
