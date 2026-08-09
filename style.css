@@ -1,507 +1,523 @@
-<!DOCTYPE html>
+{
 
-<html>
+box-sizing:border-box;
 
-<head>
-    <title>인외전담특수수사대</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+}
+body {
+margin: 0;
 
-<body>
+background:
+linear-gradient(
+    to bottom,
+    #03030b,
+    #06244d,
+    #0a6b91
+);
 
-<!-- =========================
-     첫 화면
-========================= -->
+color:white;
+font-family:sans-serif;
 
-<section class="intro">
 
-```
-<h1>지구에 외계인이 나타났다!</h1>
+}
+h1 {
+font-size: 60px;
+letter-spacing: 5px;
+text-shadow: 0 0 20px #6ecbff;
+}
+.intro {
 
-<p>
-어느날 나타난 외계인들이 지구에 정착했다.<br>
-외계인들과 함께 오순도순 살아가는 근미래 서울이 당신의 세계이다.
-</p>
-```
+height:100vh;
 
-</section>
+display:flex;
 
-<!-- =========================
-     세계관
-========================= -->
+flex-direction:column;
 
-<section class="world">
+justify-content:center;
 
-```
-<div class="world-box">
+align-items:center;
 
-    <h2>WORLD DATABASE</h2>
+text-align:center;
 
-    <h3>60년 전</h3>
 
-    <div class="ark">
+}
 
-        <img src="images/ark.png">
+.world {
 
-        <div>
+min-height: 100vh;
 
-            <h4>방주 - ARK</h4>
+background: 
+linear-gradient(
+    rgba(0,10,30,0.95),
+    rgba(0,30,60,0.95)
+);
 
-            <p>
-            인류가 처음으로 마주한 외계 문명의 거대한 우주선.<br><br>
+padding: 100px 20%;
 
-            약 60년 전, 정체불명의 우주선 "방주"가
-            지구 궤도에 도착했다.<br><br>
 
-            그 안에서 온 외계 생명체들은 지구에 정착했고,
-            그들이 가져온 기술은 인류 문명을 크게 변화시켰다.
-            </p>
+}
 
-        </div>
+.world-box {
 
-    </div>
+border: 1px solid rgba(100,200,255,0.5);
 
+padding: 60px;
 
-    <h3>지금 시대</h3>
+background: rgba(0,0,20,0.5);
 
-    <p>
-    인간과 외계인이 함께 살아가는 근미래 서울.<br><br>
+box-shadow: 0 0 30px rgba(50,150,255,0.3);
 
-    하지만 서로 다른 문화와 가치관은
-    새로운 갈등과 사건을 만들어내고 있다.
-    </p>
 
-</div>
-```
+}
 
-</section>
+.world h2 {
 
-<!-- =========================
-     인외전담특수수사대
-========================= -->
+color: white;
 
-<section class="unit">
+font-size: 45px;
 
-```
-<div class="unit-box">
+letter-spacing: 8px;
 
-    <h2>SPECIAL INVESTIGATION UNIT</h2>
 
-    <h3>인외전담특수수사대</h3>
+}
 
-    <p>
-    인간과 외계 생명체가 공존하는 시대.<br><br>
+.world h3 {
 
-    서로 다른 문화와 가치관에서 비롯되는
-    새로운 형태의 범죄와 사건을 해결하기 위해<br>
-    서울경찰청 산하에 설립된 특수 수사 조직이다.
-    </p>
+color: #6ecbff;
 
+margin-top: 50px;
 
-    <div class="unit-info">
+letter-spacing: 3px;
 
-        <div>
-            <span>설립</span>
-            <strong>설립 1년차</strong>
-        </div>
 
-        <div>
-            <span>소속</span>
-            <strong>서울경찰청</strong>
-        </div>
+}
 
-        <div>
-            <span>목적</span>
-            <strong>인외 관련 사건 수사</strong>
-        </div>
+.world p {
 
-    </div>
+color:white;
 
-</div>
-```
+font-size:18px;
 
-</section>
+line-height:2;
 
-<!-- =========================
-     멤버
-========================= -->
 
-<section class="member">
+}
 
-```
-<div class="member-box">
+.ark {
 
-    <h2>MEMBER FILE</h2>
+display:flex;
 
-    <p class="subtitle">
-    인외전담특수수사대 구성원 데이터
-    </p>
+flex-direction:column;
 
+gap:50px;
 
-    <div class="cards">
+align-items:center;
 
+margin-top:50px;
 
 
-        <!-- =========================
-             엘레네어
-        ========================= -->
+}
 
-        <div class="card">
+.ark img {
 
-            <div class="card-inner">
+width:80%;
 
+max-width:900px;
 
-                <!-- 앞면 -->
+border-radius:10px;
 
-                <div class="card-front">
+box-shadow:
+0 0 30px rgba(100,200,255,0.5);
 
-                    <img src="images/eleneir.png" alt="엘레네어">
 
-                    <div class="card-info">
+}
 
-                        <h3>FILE 001</h3>
+.ark div {
 
-                        <h4>엘레네어</h4>
+flex:1;
 
-                        <p>
-                        종족 : 루네비브<br>
-                        나이 : 우주력 273년<br>
-                        키 : 189cm<br>
-                        능력 : 공간 구조 재정의
-                        </p>
 
-                    </div>
+}
 
-                </div>
+.ark h4 {
 
+font-size:35px;
 
-                <!-- 뒷면 -->
+color:#6ecbff;
 
-                <div class="card-back">
 
-                    <h3>PERSONAL FILE</h3>
+}
 
-                    <h4>엘레네어</h4>
+.unit {
 
-                    <p>
-                    루네비브 :
-                    외계함선 '방주'를 최초 제작한 고대 외계종족.
-                    아름다운 외형과 뛰어난 지성을 가진 종족으로 여러 문명 발전에 영향을 줬다.
-                    높은 지휘와 영향력으로 존경과 경외의 대상이 된다.<br><br>
+min-height:100vh;
 
-                    성격 :
-                    호쾌하고 이타적이다.
-                    호기심이 많고 긍정적이며, 상대를 분석하는 것을 좋아한다.
-                    자신감 있고 여유로운 태도를 유지하며 다양성을 존중한다.<br><br>
+padding:100px 10%;
 
-                    특징 : 한국 문화 콘텐츠를 좋아한다.<br><br>
+background:
+linear-gradient(
+    rgba(0,10,30,0.9),
+    rgba(0,20,50,0.9)
+);
 
-                    소지품 : 스마트폰, 통신단말기
-                    </p>
 
-                </div>
+}
 
+.unit-box {
 
-            </div>
+border:1px solid rgba(100,200,255,0.5);
 
-        </div>
+padding:60px;
 
+background:rgba(0,0,20,0.5);
 
+text-align:center;
 
-        <!-- =========================
-             정요셉
-        ========================= -->
 
-        <div class="card">
+}
 
-            <div class="card-inner">
+.unit h2 {
 
+font-size:40px;
 
-                <!-- 앞면 -->
+letter-spacing:8px;
 
-                <div class="card-front">
+color:white;
 
-                    <img src="images/yosep.png" alt="정요셉">
 
-                    <div class="card-info">
+}
 
-                        <h3>FILE 002</h3>
+.unit h3 {
 
-                        <h4>정요셉</h4>
+font-size:45px;
 
-                        <p>
-                        종족 : 인간<br>
-                        나이 : 36살<br>
-                        키 : 180cm<br>
-                        능력 : 뛰어난 추리력과 현장 경험
-                        </p>
+color:#6ecbff;
 
-                    </div>
+margin-top:30px;
 
-                </div>
 
+}
 
-                <!-- 뒷면 -->
+.unit p {
 
-                <div class="card-back">
+margin-top:50px;
 
-                    <h3>PERSONAL FILE</h3>
+font-size:20px;
 
-                    <h4>정요셉</h4>
+line-height:2;
 
-                    <p>
-                    인간 :
-                    지구행성의 토착 종족이자, 아직 많은 비율을 차지하는 종족.
-                    다른 외계 종족처럼 내세울 초능력은 없지만
-                    각 분야에서 뛰어난 면모를 보이기도 한다.<br><br>
 
-                    성격 :
-                    삶에 찌든 염세주의자이다.
-                    독설은 날카롭지만 무례한 욕설보다는 잔잔하게 팩트폭력을 한다.
-                    현실적이고 냉소적이며 무뚝뚝하지만,
-                    결국 사람을 외면하지 못하는 성격이다.<br><br>
+}
 
-                    특징 : 최근 금연 중이라 막대 사탕을 먹는다.<br><br>
+.unit-info {
 
-                    소지품 : 스마트폰, 통신단말기, 총, 수갑, 막대사탕
-                    </p>
+display:flex;
 
-                </div>
+justify-content:center;
 
+gap:30px;
 
-            </div>
+margin-top:70px;
 
-        </div>
 
+}
 
+.unit-info div {
 
-        <!-- =========================
-             베커 비앙
-        ========================= -->
+border:1px solid rgba(100,200,255,0.4);
 
-        <div class="card">
+padding:30px;
 
-            <div class="card-inner">
+width:200px;
 
 
-                <!-- 앞면 -->
+}
 
-                <div class="card-front">
+.unit-info span {
 
-                    <img src="images/becker.png" alt="베커 비앙">
+display:block;
 
-                    <div class="card-info">
+color:#6ecbff;
 
-                        <h3>FILE 003</h3>
+font-size:14px;
 
-                        <h4>베커 비앙</h4>
 
-                        <p>
-                        종족 : 콸트<br>
-                        나이 : 26살<br>
-                        키 : 203cm<br>
-                        능력 : 위장 및 은신
-                        </p>
+}
 
-                    </div>
+.unit-info strong {
 
-                </div>
+display:block;
 
+margin-top:15px;
 
-                <!-- 뒷면 -->
 
-                <div class="card-back">
+}
 
-                    <h3>PERSONAL FILE</h3>
+.member {
 
-                    <h4>베커 비앙</h4>
+min-height:100vh;
 
-                    <p>
-                    콸트 :
-                    이름을 '본인 이름' + '모체 이름'으로 구성되며
-                    '모체 이름'이 인간의 성과 비슷한 역할을 한다.
-                    뛰어난 신체 능력과 민첩성을 가져 군인이나 경호 등
-                    신체 능력을 요구하는 직업에 많이 종사한다.<br><br>
+padding:100px 10%;
 
-                    성격 :
-                    자존심 강하고 쉽게 흥분하는 성격이다.
-                    감정 표현과 호의 전달에 서툰 듯 하다.<br><br>
+background:
+linear-gradient(
+    rgba(0,10,30,0.95),
+    rgba(0,20,40,0.95)
+);
 
-                    특징 : 인간을 좋아하지 않는다.<br><br>
 
-                    소지품 : 스마트폰, 통신단말기, 톤파
-                    </p>
+}
 
-                </div>
+.member-box {
 
+text-align:center;
 
-            </div>
 
-        </div>
+}
 
+.member h2 {
 
+font-size:50px;
 
-        <!-- =========================
-             움삐
-        ========================= -->
+letter-spacing:10px;
 
-        <div class="card">
 
-            <div class="card-inner">
+}
 
+.subtitle {
 
-                <!-- 앞면 -->
+color:#6ecbff;
 
-                <div class="card-front">
+margin-bottom:60px;
 
-                    <img src="images/umppi.png" alt="움삐">
 
-                    <div class="card-info">
+}
 
-                        <h3>FILE 004</h3>
+.cards {
 
-                        <h4>움삐</h4>
+display:grid;
 
-                        <p>
-                        종족 : 뷁큓숑뻬룢<br>
-                        나이 : 우주력 999년<br>
-                        키 : 165cm<br>
-                        능력 : 압도적인 신체 능력
-                        </p>
+grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
 
-                    </div>
+gap:40px;
 
-                </div>
 
+}
 
-                <!-- 뒷면 -->
 
-                <div class="card-back">
+.card h3 {
 
-                    <h3>PERSONAL FILE</h3>
+color:#6ecbff;
 
-                    <h4>움삐</h4>
+letter-spacing:3px;
 
-                    <p>
-                    뷁큓숑뻬룢 :
-                    기록이 거의 남지 않은 미지의 종족이다.
-                    현재 모습은 본체가 만든 인간형 육체이다.
-                    본체를 본 존재는 거의 없으며,
-                    목격한 외계인들은 본능적인 공포를 느낀다 한다.
-                    모든 외계 종족 중 최상위권의 신체 능력을 보유하며
-                    지금까지 부수지 못한 것이 보고된 적 없다.<br><br>
 
-                    성격 :
-                    순수하고 온순하다.
-                    누구에게나 먼저 다가가 친구가 되려 한다.
-                    악의나 복잡한 감정을 잘 품지 않는다.<br><br>
+}
 
-                    특징 :
-                    엘레네어와 수백 년 전부터 알고 지낸 오래된 친구이다.<br><br>
+.card h4 {
 
-                    소지품 : 통신단말기, 콩벌레, 젤리 간식
-                    </p>
+font-size:35px;
 
-                </div>
+margin:20px 0;
 
 
-            </div>
+}
 
-        </div>
+.card p {
 
+line-height:2;
 
-    </div>
 
-</div>
-```
+}
 
-</section>
+.card img {
 
-<!-- =========================
-     보급품
-========================= -->
+width:240px;
 
-<section class="supply">
+height:400px;
 
-```
-<div class="supply-box">
+object-fit:cover;
 
-    <h2>SUPPLY DATABASE</h2>
+object-position:center top;
 
-    <p class="subtitle">
-    인외전담특수수사대 지급 장비 데이터
-    </p>
+border-radius:10px;
 
+border:1px solid rgba(100,200,255,0.5);
 
-    <div class="equipment">
 
-        <img src="images/communicator.png" alt="통신단말기">
+}
 
+.card-info {
 
-        <div class="equipment-info">
+flex:1;
 
-            <h3>COMMUNICATION DEVICE</h3>
 
-            <h4>통신단말기</h4>
+}
 
-            <p>
-            귀걸이 형태로 제작된 휴대용 통신 장비.<br><br>
+@media (max-width:600px) {
 
-            대원 간 실시간 통신 및 위치 공유 기능을 제공하며,
-            사용자의 시야에 홀로그램 창을 띄워
-            사건 정보와 현장 데이터를 표시한다.
-            </p>
+.unit h2 {
 
-        </div>
+    font-size:28px;
 
-    </div>
+    letter-spacing:4px;
 
-</div>
-```
+    word-break:break-word;
 
-</section>
+}
 
-<!-- =========================
-     카드 뒤집기 기능
-========================= -->
 
-<script>
+.unit h3 {
 
-document.querySelectorAll(".card").forEach(function(card) {
+    font-size:32px;
 
-    card.addEventListener("click", function() {
+}
 
-        card.classList.toggle("flipped");
 
-    });
+.unit-box {
 
-});
+    padding:30px;
 
-</script>
+}
 
-</body>
 
-</html>
-```
+}
 
+.supply {
 
-```css
+min-height:100vh;
+
+padding:100px 10%;
+
+background:
+linear-gradient(
+    rgba(0,10,30,0.95),
+    rgba(0,20,40,0.95)
+);
+
+
+}
+
+.supply-box {
+
+border:1px solid rgba(100,200,255,0.5);
+
+padding:60px;
+
+background:
+rgba(0,0,20,0.6);
+
+text-align:center;
+
+
+}
+
+.supply h2 {
+
+font-size:50px;
+
+letter-spacing:10px;
+
+
+}
+
+.equipment {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.equipment img {
+width: 300px;
+max-width: 80%;
+}
+
+.equipment-info {
+text-align: center;
+}
+
+.equipment-info h3 {
+
+color:#6ecbff;
+
+letter-spacing:4px;
+
+
+}
+
+.equipment-info h4 {
+
+font-size:35px;
+
+margin:20px 0;
+
+
+}
+
+.equipment-info p {
+
+font-size:18px;
+
+line-height:2;
+
+
+}
+/* 멤버 상세 정보 */
+
+.member-detail {
+max-width: 900px;
+margin: 40px auto 0;
+padding: 35px;
+
+border: 1px solid rgba(255,255,255,0.2);
+background: rgba(0,0,0,0.25);
+
+display: none;
+
+
+}
+
+.member-detail.active {
+display: block;
+}
 /* =========================
    MEMBER CARD FLIP
 ========================= */
 
 .card {
-    perspective: 1000px;
-    cursor: pointer;
+    position: relative;
+
     height: 460px;
+
+    perspective: 1000px;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    border: none;
+
+    background: none;
+
+    transition: none;
+
+    display: block;
+}
+
+.card:hover {
+    transform: none;
+
+    box-shadow: none;
 }
 
 .card-inner {
     position: relative;
+
     width: 100%;
     height: 100%;
 
-    transition: transform 0.6s;
+    transition: transform 0.6s ease;
+
     transform-style: preserve-3d;
 }
 
@@ -509,27 +525,41 @@ document.querySelectorAll(".card").forEach(function(card) {
     transform: rotateY(180deg);
 }
 
+
+/* =========================
+   카드 앞 / 뒤
+========================= */
+
 .card-front,
 .card-back {
     position: absolute;
+
+    inset: 0;
 
     width: 100%;
     height: 100%;
 
     box-sizing: border-box;
 
-    border: 1px solid rgba(100,200,255,0.5);
-
     padding: 30px;
 
-    background:
-    rgba(0,0,20,0.6);
+    border: 1px solid rgba(100,200,255,0.5);
+
+    border-radius: 10px;
+
+    background: rgba(0,0,20,0.6);
 
     text-align: left;
 
     backface-visibility: hidden;
+
     -webkit-backface-visibility: hidden;
 }
+
+
+/* =========================
+   카드 앞면
+========================= */
 
 .card-front {
     display: flex;
@@ -539,8 +569,106 @@ document.querySelectorAll(".card").forEach(function(card) {
     align-items: center;
 }
 
+.card-front img {
+    width: 240px;
+    height: 400px;
+
+    object-fit: cover;
+
+    object-position: center top;
+
+    flex-shrink: 0;
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(100,200,255,0.5);
+}
+
+.card-front .card-info {
+    flex: 1;
+}
+
+
+/* =========================
+   카드 뒷면
+========================= */
+
 .card-back {
     transform: rotateY(180deg);
 
     overflow-y: auto;
 }
+
+
+/* =========================
+   카드 뒷면 스크롤
+========================= */
+
+.card-back::-webkit-scrollbar {
+    width: 6px;
+}
+
+.card-back::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.card-back::-webkit-scrollbar-thumb {
+    background: rgba(100,200,255,0.4);
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   모바일
+========================= */
+
+@media (max-width: 900px) {
+
+    .card {
+        height: 460px;
+    }
+
+    .card-front {
+        gap: 20px;
+    }
+
+    .card-front img {
+        width: 200px;
+        height: 360px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        height: 500px;
+    }
+
+    .card-front {
+        gap: 15px;
+
+        padding: 20px;
+    }
+
+    .card-front img {
+        width: 42%;
+        height: 300px;
+    }
+
+    .card h4 {
+        font-size: 27px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}오후 9:26 2026-08-09
